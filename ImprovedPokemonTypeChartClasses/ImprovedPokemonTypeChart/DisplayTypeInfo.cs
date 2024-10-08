@@ -55,38 +55,38 @@ public class DisplayTypeInfo
             switch (primaryArrayData[i])
             {
                 case 0:
-                {
-                    Immunity += $" {(PokemonTypes)i}, ";
-                    ImmunityCount++;
-                    break;
-                }
+                    {
+                        Immunity += $" {(PokemonTypes)i}, ";
+                        ImmunityCount++;
+                        break;
+                    }
                 case 0.25:
-                {
-                    Resistance += $" {(PokemonTypes)i}, ";
-                    ResistanceCount++;
-                    break;
-                }
+                    {
+                        Resistance += $" {(PokemonTypes)i}, ";
+                        ResistanceCount++;
+                        break;
+                    }
                 case 0.5:
-                {
-                    Resistance += $" {(PokemonTypes)i}, ";
-                    ResistanceCount++;
-                    break;
-                }  
+                    {
+                        Resistance += $" {(PokemonTypes)i}, ";
+                        ResistanceCount++;
+                        break;
+                    }
                 case 1:
-                {
-                    Neutrality += $" {(PokemonTypes)i}, ";
-                    break;
-                }
+                    {
+                        Neutrality += $" {(PokemonTypes)i}, ";
+                        break;
+                    }
                 case 2:
-                {
-                    Weakness += $" {(PokemonTypes)i}, ";
-                    break;
-                }
+                    {
+                        Weakness += $" {(PokemonTypes)i}, ";
+                        break;
+                    }
                 case 4:
-                {
-                    Weakness += $" {(PokemonTypes)i}(4x Weakness), ";
-                    break;
-                }
+                    {
+                        Weakness += $" {(PokemonTypes)i}(4x Weakness), ";
+                        break;
+                    }
                 default:
                     break;
             }
@@ -117,7 +117,7 @@ public class DisplayTypeInfo
         };
 
         return list;
-        
+
         // OLD IMPLEMENTATION using a giant concatinated string - return $"{Immunity}\n{Resistance}\n{Neutrality}\n{Weakness}";
     }
 }

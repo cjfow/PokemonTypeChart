@@ -81,7 +81,10 @@
           "Extended.Wpf.Toolkit": "4.4.0"
         },
         "runtime": {
-          "ImprovedPokemonTypeChart.dll": {}
+          "ImprovedPokemonTypeChart.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

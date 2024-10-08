@@ -68,6 +68,7 @@ public partial class TypeCalculatorUI : Form
         // create the displayTypeInfo object
         DisplayTypeInfo display = new();
 
+        StrengthsAndWeaknessesRichTextBox.Text = "";
         // pass the list returned from the DisplayInfo method to populate the text box
         PopulateTextBox(display.DisplayInfo(newArr1, newArr2));
     }
